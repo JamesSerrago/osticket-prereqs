@@ -37,7 +37,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  Open IIS as an Admin. Register PHP from within IIS. Reload IIS (Open IIS, Stop and Start the server)
+   Part 1 (Create Virtual Machine in Azure)
+  
+-Create a Resource Group
+
+Create a Windows 10 Virtual Machine (VM) with 2-4 Virtual CPUs
+
+When creating the VM, allow it to create a new Virtual Network (Vnet)
+
 </p>
 <br />
 
@@ -45,21 +52,27 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Go to sites -> Default -> osTicket
-On the right, click “Browse *:80”
+Part 2 (Installation)
 
-Note that some extensions are not enabled
-Go back to IIS, sites -> Default -> osTicket
-  
-Double-click PHP Manager
-Click “Enable or disable an extension”
+  -Create an Azure Virtual Machine Windows 10, 4 vCPUs
 
-  Enable: php_imap.dll
+Name: Vm-osticket
 
-  Enable: php_intl.dll
+Username: labuser (for example/whatever you chose)
 
-  Enable: php_opcache.dll
-Refresh the osTicket site in your browser, observe the changes
+Password: osTicketPassword1! (for example/whatever you chose)
+
+
+-Install / Enable IIS in Windows WITH CGI and Common HTTP Features
+
+World Wide Web Services -> Application Development Features ->
+
+[X] CGI
+
+[X] Common HTTP Features
+
+
+
 
 </p>
 <br />
