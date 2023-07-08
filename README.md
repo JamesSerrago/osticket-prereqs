@@ -35,7 +35,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
    Part 1 (Create Virtual Machine in Azure)
   
--Create a Resource Group
+Create a Resource Group
 
 Create a Windows 10 Virtual Machine (VM) with 2-4 Virtual CPUs
 
@@ -50,7 +50,7 @@ When creating the VM, allow it to create a new Virtual Network (Vnet)
 <p>
 Part 2 (Installation)
 
-  -Create an Azure Virtual Machine Windows 10, 4 vCPUs
+Create an Azure Virtual Machine Windows 10, 4 vCPUs
 
 Name: Vm-osticket
 
@@ -59,7 +59,7 @@ Username: labuser (for example/whatever you chose)
 Password: osTicketPassword1! (for example/whatever you chose)
 
 
--Install / Enable IIS in Windows WITH CGI and Common HTTP Features
+Install / Enable IIS in Windows WITH CGI and Common HTTP Features
 
 World Wide Web Services -> Application Development Features ->
 
