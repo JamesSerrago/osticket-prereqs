@@ -18,7 +18,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- IIS With CGI & Common Http Features
+- IIS With CGI & Common HTTP Features
 - PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
 - Rewrite Module (rewrite_amd64_en-US.msi)
 - PHP 7.3.8
@@ -149,7 +149,7 @@ MySQL Username: root
 MySQL Password: Password1
 Click “Install Now!”
 
-Congratulations, hopefully it is installed with no errors!
+Congratulations, hopefully, it is installed with no errors!
 Browse to your help desk login page: http://localhost/osTicket/scp/login.php
 
 Clean up
